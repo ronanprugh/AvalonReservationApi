@@ -1,7 +1,7 @@
-import selenium
+from utilities.Amenity import Amenity
 
 class Reservation:
-    
+
     def getReservation(id=None):
         response = {
             "id": 1,
@@ -9,5 +9,8 @@ class Reservation:
         }
         return response
 
+    sampleBody = {
+
+    }
     def postReservation(request):
-        return 1
+        return request
